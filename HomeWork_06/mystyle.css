@@ -1,0 +1,103 @@
+html{
+    background-color: #08192D;
+    
+}
+
+#frame{
+    width:100%;
+    height:auto;
+
+}
+
+#floatmenu{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color: #060002;
+}
+
+
+
+h1{
+    position: absolute;
+    font-size: 48px;
+    right:20%;
+}
+#banner{
+    background-image: url("BannerStar.png");
+    background-image: cover;
+    background-repeat:no-repeat;
+    height: 350px;
+    color:whitesmoke;
+   
+}
+
+#main{
+    width:60%;
+    box-align:center;
+}
+#mainbox{
+    border: #FFEF00 1px solid;
+    color:whitesmoke;
+    margin:2%;
+}
+#mainbox2{  /*試圖用double做雙框線但沒辦法畫到很細乾脆再開一個div自己畫比較好看*/
+    border: #FFEF00 1px solid;
+    margin:0.5%;
+}
+
+#writing{
+    margin:5%;
+}
+
+.imgM{
+    float:right;
+    width: 150px;
+    margin:10px;
+}
+
+#leftspace {
+    position: sticky;
+    background-color: #08192D;
+    width:20%;
+    color:whitesmoke;
+    
+}
+
+.imgL{
+    float:left;
+    margin-left:10%;
+    margin-bottom:5%;
+}
+
+h4{
+    float:left;
+    margin-left:-20%;
+    left:-15%;
+    font-size: larger;
+    font-weight:bolder;
+}
+
+
+
+#rightspace{
+    background-color: #08192D;
+    width:20%
+}
+
+.imgR
+{
+    position: fixed;
+    bottom:3%;
+}
+
+#stars{
+     border-style: dashed;
+     border-color: #FFEF00;
+    width:100%;
+}
+
+#stars img{
+    height: auto;
+    max-width: 100%;
+}
